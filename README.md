@@ -15,5 +15,3 @@ To run this:
     python read_video_yolov8.py 1.mp4
     ```
     This will start detecting objects in that video, in the end, it'll save the resulting video to `output.avi`
-- Old files for YOLOv3: `yolo_opencv.py`, `live_yolo_opencv.py`, `read_video.py`
-- Feel free to edit the codes for your needs!

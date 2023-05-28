@@ -19,7 +19,7 @@ model = YOLO("yolov8n.pt")
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 640)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
-cap.set(cv2.CAP_PROP_FPS, 3)
+cap.set(cv2.CAP_PROP_FPS, 10)
 # cap = cv2.VideoCapture(0)
 _, image = cap.read()
 h, w = image.shape[:2]
